@@ -8,7 +8,6 @@ const Footer = () => {
         <div className="container mx-auto my-8 ">
       <div className="flex md:flex-row space-y-4 flex-col justify-between pt-5">
         <div className="space-y-3">
-          <img src={FooterLogo} alt="" />
           <p>
             Curated tools, technologies, and <br /> resources for developers building
             modern software.
