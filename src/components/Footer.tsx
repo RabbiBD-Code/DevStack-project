@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="space-y-3">
           <img src={FooterLogo} alt="" />
           <p>
-            Curated tools, technologies, and resources for developers building
+            Curated tools, technologies, and <br /> resources for developers building
             modern software.
           </p>
           <div className="flex gap-4 font-bold">
