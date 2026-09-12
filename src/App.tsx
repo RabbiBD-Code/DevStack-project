@@ -19,7 +19,7 @@ function App() {
     <>
       <Navbar/>
       <Banner/>
-      <Suspense fallback={<p>Loadding..........</p>}>
+      <Suspense fallback={<div className="flex justify-center items-center h-40"><span className="loading loading-spinner loading-xl mx-auto"></span></div>}>
         <ExploreTechnology technologiesPromise={technologiesPromise}/>
       </Suspense>
       <ToastContainer />

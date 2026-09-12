@@ -1,4 +1,3 @@
-import React, { type Dispatch, type SetStateAction } from 'react';
 import type { Itecnology } from './type';
 
 interface StacksProps {

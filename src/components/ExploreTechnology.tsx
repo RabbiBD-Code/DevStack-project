@@ -1,4 +1,4 @@
-import { use, useState, type Dispatch, type SetStateAction } from "react";
+import { use, useState, } from "react";
 import type { Itecnology } from "./type";
 import ExploreTechnologyCard from "./ExploreTechnologyCard";
 import ExploreTechnologySatckCard from "./ExploreTechnologySatckCard";

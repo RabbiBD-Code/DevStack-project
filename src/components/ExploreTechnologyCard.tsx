@@ -1,4 +1,4 @@
-import { useState, type Dispatch, type SetStateAction } from "react";
+import { type Dispatch, type SetStateAction } from "react";
 import type { Itecnology } from "./type";
 import { toast } from "react-toastify";
 import { CiStar } from "react-icons/ci";
