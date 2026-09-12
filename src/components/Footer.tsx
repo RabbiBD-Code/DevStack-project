@@ -1,4 +1,3 @@
-import React from "react";
 
 import FooterLogo from "../assets/logo-text.png";
 
@@ -38,7 +37,6 @@ const Footer = () => {
             <p>Terms of Service</p>
         </div>
       </div>
-      <hr className="text-gray-300 my-7"/>
       <div className="flex justify-between text-sm px-5">
         <p>© 2026 Dev Stack. All rights reserved.</p>
         <div className="flex gap-4">
