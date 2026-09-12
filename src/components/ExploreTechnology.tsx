@@ -63,19 +63,29 @@ const ExploreTechnology = ({ technologiesPromise }: ExploreTechnologyProps) => {
         <div className="md:col-span-3">
           <div className="border  border-gray-200 bg-gray-100 p-2 rounded-xl space-y-3 sticky top-17 z-40">
             <h2 className="text-xl font-bold">Your Stack</h2>
-            <p className="text-sm"><span className="font-bold">{addedStack.length}</span> Technology Selected</p>
+            <p className="text-sm font-semibold">{addedStack.length > 0 ? `${addedStack.length} Technology Selected `:`No technologies selected yet.`}
+              
+            </p>
 
             <div className="grid grid-cols-1 gap-2">
-              {addedStack.map((stacks, index) => {
+
+             {
+                addedStack.length === 0? (<p className="text-center border rounded-3xl border-dashed text-gray-500 py-17 m-5">
+        Your stack is empty
+      </p>): addedStack.map((stacks, index) => {
                 return <ExploreTechnologySatckCard stacks={stacks} key={index} handleAddedStacks={handleAddedStacks}/>;
-              })}
+              })
+              }
             </div>
-            <button
+            {
+              addedStack.length > 0 && 
+              <button
               onClick={() => handleRemoveAllCard()}
               className="btn w-full border-red-300  text-red-400 font-semibold "
             >
               Remove All
             </button>
+            }
           </div>
         </div>
       </div>
