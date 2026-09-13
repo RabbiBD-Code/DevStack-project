@@ -45,6 +45,8 @@ Tailwind CSS
 DaisyUI
 React Icons
 Vite**
+
+
 3 Features
 Explore Technologies – Users can explore different web development technologies and view their details.
 Technology Stack Management – Users can add technologies to their stack and manage their selected technologies.
