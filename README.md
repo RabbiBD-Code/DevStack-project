@@ -80,9 +80,9 @@ useEffect is a React Hook used to perform side effects in a component, such as f
 
 **5 .Why does every item in a .map() list need a unique key prop?**
 
-**6 React needs a key to uniquely identify each item in a list.**
+React needs a key to uniquely identify each item in a list.
 
-What is conditional rendering?
+**What is conditional rendering?**
 
 Conditional rendering means displaying different UI based on a condition.
 
